@@ -15,6 +15,8 @@ import { FormResidenceComponent } from './form-residence/form-residence.componen
 import { FormApartmentComponentComponent } from './form-apartment-component/form-apartment-component.component';
 import { FormApartmentComponent } from './form-apartment/form-apartment.component';
 import { DetailApartmentComponent } from './detail-apartment/detail-apartment.component';
+import { Compo1Component } from './compo1/compo1.component';
+import { Compo2Component } from './compo2/compo2.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { DetailApartmentComponent } from './detail-apartment/detail-apartment.co
     FormResidenceComponent,
     FormApartmentComponentComponent,
     FormApartmentComponent,
-    DetailApartmentComponent
+    DetailApartmentComponent,
+    Compo1Component,
+    Compo2Component
   ],
   imports: [
     BrowserModule,
